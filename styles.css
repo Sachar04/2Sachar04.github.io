@@ -1,0 +1,103 @@
+body {
+    background-color: #ffdfa2;
+    color: #ea3d3d;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  header {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  h1 {
+    font-size: 72px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+  }
+  
+  #ice-cream-menu {
+    margin: 50px 0;
+  }
+  
+  #ice-cream-menu h2 {
+    font-size: 48px;
+    letter-spacing: 5px;
+  }
+  
+  #ice-cream-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #ice-cream-menu li {
+    font-size: 36px;
+    margin: 10px 20px;
+  }
+  
+  #ice-cream-frames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .frame {
+    display: inline-block;
+    margin: 50px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .frame:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-color: #ffaa00;
+    z-index: -1;
+    transform: skew(-10deg);
+  }
+  
+  .frame img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .frame button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ffaa00;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .frame button:hover {
+    background-color: #000;
+    color: #ffaa00;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
